@@ -42,7 +42,7 @@ export const generateTraits = (prng) => {
         "Number of Lines": mapDecimalToWord(numLines, 10, 290),
         "Layers": mapDecimalToWord(layers, 1, 5)
     }
-    const traits = {bgHue, bgSaturation, bgLightness, fgHue, fgSaturation, fgLightness, numLines, layers};
+    const traits = {bgHue, bgSaturation, bgLightness, fgHue, fgSaturation, fgLightness, numLines, layers}; //these are all of the randomly generated params
     console.log("attributes", attributes)
     console.log("traits", traits)
     return {attributes, traits}
